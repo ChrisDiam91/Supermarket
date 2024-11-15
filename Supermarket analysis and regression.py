@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
-sm = pd.read_csv(r"C:\Users\Downloads\SuperMarket.csv")
+sm = pd.read_csv(r"C:\Users\Dataset\SuperMarket.csv")
 
 # Retrieve info about the dataset
 sm.info()

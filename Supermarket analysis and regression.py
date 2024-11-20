@@ -94,3 +94,9 @@ plt.title("Linear Regression: Unit Price vs Sales")
 plt.legend()
 plt.show()
 slope, intercept
+
+# Calculate the R-squared value
+r_squared = model.score(x_test, y_test)
+
+print("R-squared:", r_squared)
+
